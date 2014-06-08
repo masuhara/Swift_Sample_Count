@@ -32,6 +32,10 @@ class ViewController: UIViewController {
         number = number + 1
         label.text = "\(number)"
     }
+    
+    func hoge (){
+        println("hoge")
+    }
 }
 
 
