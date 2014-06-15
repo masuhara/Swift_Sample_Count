@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var number : Int = 0
     @IBOutlet var label : UILabel
     
+    var number;
 
     
     override func viewDidLoad() {
