@@ -12,9 +12,7 @@ class ViewController: UIViewController {
 
     /* -- 変数とOutletの宣言 -- */
     var number : Int = 0
-    @IBOutlet var label : UILabel
-    
-    var number;
+    @IBOutlet var label : UILabel!
 
     
     override func viewDidLoad() {
